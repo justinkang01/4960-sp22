@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+  box-sizing: border-box;
+}
+.header {
+  margin: 0 auto;
+  width: 70%;
+}
+.name {
+  text-align: center;
+  font-weight: 700;
+  margin: 1rem;
+}
+.email {
+  text-align: center;
+  margin: 0.5rem;
+}
+.class-course {
+  text-align: center;
+  margin: 0.1rem;
+  font-size: 0.8rem;
+}
+.main-content {
+  width: 70%;
+  margin: 0 auto;
+}
