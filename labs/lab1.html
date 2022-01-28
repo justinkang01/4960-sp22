@@ -14,12 +14,12 @@
     <title>jk2375 Lab 1</title>
   </head>
   <body>
-    <nav class="nav justify-content-end">
+    <nav class="nav nav-pills justify-content-end">
       <li class="nav-item">
         <a href="../index.html" class="nav-link">Home</a>
       </li>
       <li class="nav-item">
-        <a href="#" class="nav-link">Lab 1</a>
+        <a href="#" class="nav-link active">Lab 1</a>
       </li>
       <li class="nav-item">
         <a href="../labs/lab2.html" class="nav-link">Lab 2</a>
@@ -78,22 +78,46 @@
               repeatedly in a loop. A video can be seen below displaying such
               action
             </p>
-            <iframe src="https://www.youtube.com/embed//K-Ke9jvkQyE" />
+            <video class="videos" controls width="400" height="300">
+              <source src="assets/lab1_pt1.mov" />
+            </video>
           </li>
           <li>
             Serial Port Printing and testing
             <p>
-              The second example used in the testing of the serial port The
-              script provided by the IDE sets a BAUD rate of 115200 and prints
-              out 10 lines of testing using the printf method, and finally tells
-              the user to write into the serial monitor to see the script echo
-              it back. The video below shows the initial 10 lines of strings
-              being printed, as well as the expected behavior when a user types
-              into the input box.
+              The second example used in the testing of the board is its serial
+              port. The script provided by the IDE sets a BAUD rate of 115200
+              and prints out 10 lines of testing using the printf method, and
+              finally tells the user to write into the serial monitor to see the
+              script echo it back. The video below shows the initial 10 lines of
+              strings being printed, as well as the expected behavior when a
+              user types into the input box.
             </p>
-            <iframe src="https://www.youtube.com/embed//pyLqwEG_sQE" />
+            <video class="videos" controls width="400" height="300">
+              <source src="assets/lab1_pt2.mov" />
+            </video>
           </li>
-          <li>fifth</li>
+          <li>
+            Analog Read
+            <p>
+              The third example used in the testing of the board is its analog
+              sensors, specifically the temperature sensor. In the script to be
+              uploaded onto the board, the program consists of a constant loop
+              of analog readings being printed, and the temperature sensor was
+              tested by blowing warm air onto it. As the board spent more time
+              under the air, the temperature continued to rise and when the
+              board was taken away from the source of warm air, the temperature
+              readings started to drop, all signals that the sensor is acting
+              correctly, and that the code was properly uploaded. Below is a
+              video of the changing readings, but as the sensor took a long time
+              to reflect a change of temperature the video provided is a bit
+              longer than the others.
+            </p>
+            <video class="videos" controls width="400" height="300">
+              <source src="assets/lab1_pt3.mov" />
+            </video>
+          </li>
+          <li>sixth</li>
         </ul>
       </div>
     </div>
