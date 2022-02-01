@@ -7,6 +7,9 @@
   font-family: Roboto;
   box-sizing: border-box;
 }
+nav {
+  margin-top: 1rem;
+}
 .header {
   margin: 0 auto;
   width: 70%;

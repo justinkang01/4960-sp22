@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+nav {
+  margin-top: 1rem;
+}
 nav ul li a:hover {
   background-color: #a8a8ff;
 }
